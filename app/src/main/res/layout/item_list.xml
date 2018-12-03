@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 1"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 2"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 3"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 4"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 5"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 6"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 7"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Item 8"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
